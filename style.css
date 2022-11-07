@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+header {
+	background-color: lightgrey;
+	opacity: 0.9;
+	width: 100%;
+}
+
+header:hover{
+	opacity: 1;
+}
+
+nav {
+	padding: 20px;
+}
+
+nav a {
+	padding: 21px 30px;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+nav a:hover {
+	background-color: grey;
+}
+
+body {
+	background-image: url('propos.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	background-attachment: fixed;
+}
+
+section div {
+	width: 30%;
+	text-align: center;
+	background-color: white;
+	opacity: 0.9;
+	padding: 70px;
+	word-spacing: 3px;
+	letter-spacing: 1px;
+	font-size: 25px;
+	margin: 200px 150px;
+}
+
+section div:hover {
+	opacity: 1;
+}
+
+section p {
+	padding-top: 15px;
+}
+
+
+main div {
+	width: 30%;
+	text-align: center;
+	background-color: white;
+	opacity: 0.9;
+	padding: 70px;
+	word-spacing: 3px;
+	letter-spacing: 1px;
+	font-size: 25px;
+	margin: 500px auto;
+}
+
+main div:hover {
+	opacity: 1;
+}
+
+main p {
+	padding-top: 15px;
+}
+
+.competence div {
+	width: 30%;
+	text-align: center;
+	background-color: white;
+	opacity: 0.9;
+	padding: 70px;
+	word-spacing: 3px;
+	letter-spacing: 1px;
+	font-size: 25px;
+	margin: 40% 10% 40% 50%;
+}
+
+footer {
+	background-color: lightgrey;
+	text-align: center;
+	width: 100%;
+}
+
+footer h1 {
+	padding: 40px;
+}
+
+footer p {
+	padding: 20px;
+	font-size: 25px;
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+}
+
+#image img {
+	width: 500px;
+	margin: auto;
+	display: block;
+	margin-bottom: 100px;
+}
+
